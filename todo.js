@@ -18,7 +18,7 @@ delet.forEach((delets) => {
   if(event.which===13){
     var newTodo =ne.value.toUpperCase();
     const div = document.createElement('li');
-    div.innerHTML = "<span class='fas fa-trash-alt'></span>"+ newTodo +" </li>"
+    div.innerHTML = `<span class='fas fa-trash-alt'></span>${newTodo} </li>`
   document.querySelector('ul').appendChild(div);
 }
   });
